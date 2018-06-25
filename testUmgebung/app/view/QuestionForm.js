@@ -1,8 +1,4 @@
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-Ext.define("QAApp.view.QuestionForm", {
+Ext.define('QAApp.view.QuestionForm', {
     extend: 'Ext.form.Panel',
     alias: 'widget.questionform',
     bodyPadding: 10,
