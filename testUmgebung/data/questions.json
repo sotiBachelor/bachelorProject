@@ -1,0 +1,15 @@
+{"qaList":
+        [
+            {
+                "id": 1,
+                "question": "Who is first president of India?",
+                "answer1": "Dr Rajender Prasad", 
+                "answer2": "Pt J L Nehru",
+                "answer3": "Pt Lal Bahadur Shastri",
+                "answer4": "S RadhaKrishnan",
+                "correctanswer": "A",
+                "stream": "Java",
+                "level": "Intermediate"
+            }
+        ]
+}   
