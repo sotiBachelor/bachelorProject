@@ -12411,7 +12411,7 @@ Ext.define('Ext.util.Event', function() {
     };
 });
 
-//@tag dom,core
+//#tag dom,core
 
 
 Ext.define('Ext.mixin.Identifiable', {

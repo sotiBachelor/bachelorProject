@@ -1,12 +1,12 @@
-//@include icon('team');
-//@include icon('info');
-//@include icon('time');
-//@include icon('locate');
-//@include icon('chat');
-//@include icon('action');
+//#include icon('team');
+//#include icon('info');
+//#include icon('time');
+//#include icon('locate');
+//#include icon('chat');
+//#include icon('action');
 
 @include sencha-tabbar-ui('gray', #111, 'matte', lighten($base-color, 10%));
-//@include sencha-toolbar-ui('dark', darken($base-color, 10%), $base-gradient);
+//#include sencha-toolbar-ui('dark', darken($base-color, 10%), $base-gradient);
 @include sencha-toolbar-ui('gray', #ccc);
 
 a, .link {

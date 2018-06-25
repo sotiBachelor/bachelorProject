@@ -29,7 +29,7 @@ $marker-size: .8em !default;
       border: $legend-border;
       background: $legend-background-color;
 
-      //@if (lightness($legend-background-color) > 30) {
+      //#if (lightness($legend-background-color) > 30) {
       //  @include box-shadow(rgba(#fff, .6) 0 1px 1px);
       //} @else {
       //  @include box-shadow(rgba(#fff, .2) 0 1px 0);

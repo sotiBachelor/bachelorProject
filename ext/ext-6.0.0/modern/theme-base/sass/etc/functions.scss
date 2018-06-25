@@ -7,8 +7,8 @@
     $ret: file_join($theme-resource-path, $leaf);
 
     @if $check-exists {
-      //@if not theme_image_exists($image-search-path, $leaf) {
-      //@warn "@get-resource-path -- resource not found: #{$path}";
+      //#if not theme_image_exists($image-search-path, $leaf) {
+      //#warn "@get-resource-path -- resource not found: #{$path}";
       //$ret: none;
       //}
     }

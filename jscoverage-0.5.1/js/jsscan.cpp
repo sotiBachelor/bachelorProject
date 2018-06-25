@@ -1577,7 +1577,7 @@ retry:
         if (MatchChar(ts, '/')) {
             /*
              * Hack for source filters such as the Mozilla XUL preprocessor:
-             * "//@line 123\n" sets the number of the *next* line after the
+             * "//#line 123\n" sets the number of the *next* line after the
              * comment to 123.
              */
             if (JS_HAS_ATLINE_OPTION(cx)) {

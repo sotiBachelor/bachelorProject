@@ -713,7 +713,7 @@ JS_StringToVersion(const char *string);
                                                    script once only; enables
                                                    compile-time scope chain
                                                    resolution of consts. */
-#define JSOPTION_ATLINE         JS_BIT(5)       /* //@line number ["filename"]
+#define JSOPTION_ATLINE         JS_BIT(5)       /* //#line number ["filename"]
                                                    option supported for the
                                                    XUL preprocessor and kindred
                                                    beasts. */

@@ -7,7 +7,7 @@
     border: .15em solid $base-color;
 
     @include box-shadow(rgba(#000, .4) 0 .1em .5em);
-    //@if $include-border-radius {
+    //#if $include-border-radius {
     //    @include border-radius($panel-border-radius);
     //}
 
@@ -27,4 +27,4 @@
     }
 }
 
-//@include msgbox-ui('dark', $sheet-bg-color);
+//#include msgbox-ui('dark', $sheet-bg-color);

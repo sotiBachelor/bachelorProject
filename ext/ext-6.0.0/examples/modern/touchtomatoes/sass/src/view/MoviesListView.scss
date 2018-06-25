@@ -102,17 +102,17 @@
       width: $width;
       @include st-box;
       @include st-box-orient(horizontal);
-      //@include box-shadow(0px 7px 33px -13px black);
+      //#include box-shadow(0px 7px 33px -13px black);
       .critics {
         border-left: 1px solid lightgray;
         text-align: right;
       }
       .user:not(.unknown) {
-        //@include inline-icon("user");
+        //#include inline-icon("user");
       }
 
       .critics:not(.unknown) {
-        //@include inline-icon("pencil");
+        //#include inline-icon("pencil");
       }
       .user, .critics {
         position: relative;

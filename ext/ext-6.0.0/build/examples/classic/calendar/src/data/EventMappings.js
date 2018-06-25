@@ -1,4 +1,4 @@
-//@define Ext.calendar.data.EventMappings
+//#define Ext.calendar.data.EventMappings
 /**
  * @class Ext.calendar.data.EventMappings
  * A simple object that provides the field definitions for Event records so that they can
