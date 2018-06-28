@@ -1,10 +1,11 @@
 Ext.define('QAApp.model.Question', {
-    extend: 'Ext.data.Model',
+extend: 'Ext.data.Model',
+   
 
     fields: [
         {
             name: 'id',
-            type: 'int'
+            type: 'string'
         },
         {
             name: 'question',

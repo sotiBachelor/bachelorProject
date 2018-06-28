@@ -42,6 +42,22 @@ it("New item should be added to store", function() {
    
     model.id = 1;
     model.question = 'Questions 3';
+
+    var data = model.data;
+
+    data.id = '1';
+    data.answer1 = 'a1';
+    data.answer2 = 'a2';
+    data.answer3 = 'a3';
+    data.answer4 = 'a4';
+
+    expect(typeof data.id).toBe('number');
+    expect(typeof data.answer1).toBe('string');
+    expect(typeof data.answer2).toBe('string');
+    expect(typeof data.answer3).toBe('string');
+    expect(typeof data.answer4).toBe('string');
+
+
     questionStore.add(model);
     expect(questionStore.data.items.length).toBe(storeLength + 1);
     questionStore.removeAt(storeLength);

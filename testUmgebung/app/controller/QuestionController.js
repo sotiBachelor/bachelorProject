@@ -33,6 +33,7 @@ Ext.define("QAApp.controller.QuestionController", {
         var form = button.up('form').getForm();
         var qStore = Ext.StoreManager.lookup("QuestionStore");
         //alert("Saving0");
+        debugger;
         if (form.isValid()) {
             var formData = form.getFieldValues();
             if (formData) {
@@ -50,6 +51,7 @@ Ext.define("QAApp.controller.QuestionController", {
                 {
                     //alert("Updating... Question");
                     var quesRecord = form.getRecord();
+                    
                     quesRecord.set(formData);
                 }
 

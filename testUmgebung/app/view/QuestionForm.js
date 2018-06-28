@@ -67,7 +67,7 @@ Ext.define('QAApp.view.QuestionForm', {
         fieldLabel: 'Question',
         allowBlank: false,
         // minLength ausklammern für Testfall
-        minLength: 5
+        //minLength: 5
     },
     {
         xtype: 'fieldcontainer',
